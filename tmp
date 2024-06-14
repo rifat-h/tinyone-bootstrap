@@ -1,0 +1,27 @@
+->Change font Family
+
+
+
+fonts 
+========================
+PTsans: font-family: 'PT Sans', sans-serif;
+helvaticaneue bold: font-family: HelveticaNeueBd, sans-serif;
+
+
+
+fontawesome
+=============================
+
+<i class="fab fa-apple"></i>
+<i class="fab fa-android"></i>
+<i class="fab fa-windows"></i>
+<i class="fas fa-mobile-alt"></i>
+<i class="far fa-lemon"></i>
+<i class="far fa-folder"></i>
+<i class="far fa-envelope"></i>
+<i class="fas fa-code"></i> 
+<i class="fab fa-pinterest-square"></i>
+<i class="fab fa-google-plus-square"></i>
+<i class="fab fa-twitter-square"></i>
+<i class="fab fa-facebook"></i>
+<i class="far fa-bookmark"></i>

@@ -1,0 +1,211 @@
+@import "variables.scss";
+
+
+
+
+// global start
+body {
+    color: $mainFontColor;
+    font-family: 'PT Sans', sans-serif;
+}
+
+i {
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+// text style start
+
+.title {
+    font-size: 32px;
+    color: $mainFontColor;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: $sliderTitle1;
+}
+
+.subtitle2 {
+    font-size: 16px;
+    color: $sliderTitle2;
+}
+
+
+// text style end
+
+// global end
+
+// header start
+header {
+    background: $mainYellow;
+    padding: 30px 0;
+}
+
+
+nav {
+    a {
+        padding-right: 71px !important;
+        font-size: 21px;
+        font-weight: bold;
+        color: $mainFontColor;
+        transition: .5s;
+        &:hover {
+            color: white !important;
+        }
+    }
+}
+
+
+
+// header end
+
+// slider start
+
+.slider {
+    background-color: $mainYellow;
+    padding-top: 25px;
+    padding-bottom: 65px;
+}
+
+.cus_indicator {
+    bottom: -60px;
+
+    li {
+        width: 15px !important;
+        height: 15px !important;
+        border-radius: 50% !important;
+    }
+}
+
+.s_content {
+
+    h2 {
+        margin-top: 64px;
+    }
+
+    h5 {
+        padding: 15px 0;
+    }
+
+    i {
+        transition: .5s;
+        &:hover {
+            color: white;
+        }
+    }
+
+
+}
+
+
+// slider end
+
+// features start
+
+.features {
+    padding: 100px 0;
+
+    h2 {
+        font-size: 22px;
+        color: $mainFontColor;
+        // font-weight: bold;
+    }
+
+    p {
+        font-size: 16px;
+        color: $feature_p;
+    }
+
+    i {
+        color: black;
+        transition: .5s;
+
+        &:hover {
+            color: $mainYellow;
+        }
+    }
+}
+
+.f_title {
+    margin: 0 13%;
+
+    p {
+        margin-bottom: 85px;
+    }
+
+}
+
+
+// features end
+
+// social start
+
+.social {
+    background-color: $footerBgc;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    h2 {
+        color: $mainYellow;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    p {
+        color: $feature_p;
+        margin-bottom: 30px;
+    }
+
+    button {
+        background-color: $mainYellow;
+        border: none;
+        font-weight: bold;
+        padding: 12px 31%;
+        margin-left: -32%;
+        transition: 1s;
+
+        &:hover {
+            background-color: white;
+            border: none;
+        }
+    }
+
+    input {
+        padding: 24px 16px;
+        width: 91%;
+        margin-left: 7%;
+    }
+}
+
+.cus_icon {
+    color: $mainYellow;
+    padding: 43px 2%;
+    transition: 1s;
+
+    &:hover {
+        color: white;
+    }
+}
+
+// social end
+
+// footer start
+
+footer {
+    background-color: $footerBgc;
+    padding-bottom: 50px;
+
+    a {
+        color: white;
+        transition: 1s;
+
+        &:hover {
+            color: $mainYellow;
+            text-decoration: none;
+        }
+    }
+}
+
+// footer end
